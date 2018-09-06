@@ -1,0 +1,10 @@
+name: Joy Project
+permalink: /media/:year/:month/:day/:title/
+relative_permalinks: false
+sass:
+  sass_dir: _scss
+  # style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-angular

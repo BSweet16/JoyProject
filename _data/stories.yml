@@ -1,0 +1,87 @@
+
+- name: Build the Hill
+  description: In the summer of 2016 the Joy Project partnered with the Woodhill community to restore a playground for kids in the area.
+  image_url: BuildTheHill
+  date_of_event: May 2016
+  uniqueID: 0009
+  fullheader: Build the Hill
+  fullstory: In the summer of 2016 the Joy Project partnered with the Woodhill community to restore a playground for kids in the area. The project involved removing an old run down playground and replacing it with a new one.  We believe that children need to be celebrated and this new playground is a small way for that to happen.
+  fullimage: BuildTheHill4
+  fullimage2: BuildTheHill3
+  fullimage3: BuildTheHill2
+  fullimage4: BuildTheHill5
+
+- name: Sensory Gym Build Day
+  description: Joy Project volunteers built a sensory gym for a family with children who have special needs.
+  image_url: sensory-gym
+  date_of_event: January 2015
+  uniqueID: 0008
+  fullheader: Sensory Gym Build Day
+  fullstory: In January of 2015, over a dozen Joy Project volunteers built a sensory gym for a family with several children with special needs. We created a room for the children to enjoy that included a climbing structure, suspended equipment, and several sensory toys. <br>Check out the video below for a further look into our day!
+  fullimage: sensory-gym
+  embededvideo: https://www.youtube.com/embed/Uf9YlV3jZy4
+  flickrimage: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/awesomeinc/albums/72157651015867382" title="Joy Project - Build Day 2015 - Therapy Gym"><img src="https://c1.staticflickr.com/9/8583/16435004117_7552e8e86d_z.jpg" width="640" height="480" alt="Joy Project - Build Day 2015 - Therapy Gym"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> 
+
+- name: Build a Bed
+  description: The Joy Project recruited over 30 Lexington volunteers to donate their Saturday to build brand new beds and deliver them to children in need around Lexington.
+  image_url: build_a_bed
+  date_of_event: June 2014
+  uniqueID: 0007
+  fullheader: Build a Bed
+  fullstory: In the summer of 2014, the Joy Project recruited over 30 Lexington volunteers to donate their Saturday to build brand new beds and deliver them to children in need around Lexington. In one day, six twin sized beds were built and delivered.
+  fullimage: build_a_bed 
+
+- name: The Story of Surviving Cancer
+  description: A cancer survivor gets to experience a campfire again.
+  image_url: CancerSurvivor
+  date_of_event: February 2014
+  uniqueID: 0006
+  fullheader: A Cancer survivor gets to experience camping again
+  fullstory: This Joy Project recipient has spent her life encouraging kids as a teacher at The Child Development Center of the Bluegrass. After living as a cancer survivor with five years of remission, she was faced with battling stage 5 breast cancer again. Once she began chemotherapy she had to take sick leave from work. Marla endured chemotherapy with amazing courage and strength. Her attitude throughout her grueling treatment was an encouragement to the Joy Project Team. Marla loves camping, but due to her illness and treatment, she was unable to get out and go camping, so we brought the campfire to her! Friends of the Joy Project showered her with gift cards, s'more supplies and a fire pit. Thank you Marla for being a fighter and an inspiration. We hope the fire pit brings you and your family much joy!
+  fullimage: camping
+
+- name: Urban Impact Camp 
+  description: The Joy Project sent seven inner city students to a leadership development retreat with Urban Impact.
+  image_url: urban_impact
+  date_of_event: November 2013
+  uniqueID: 0005
+  fullheader: Leadership Retreat Scholarships for Youth
+  fullstory: This November, the Joy Project sent seven Lexington students to a leadership development retreat with Urban Impact. To qualify for a scholarship to attend this unique development experience, middle and high school students demonstrated their commitment to service and leadership by attending a service day with the Joy Project. Students devoted an afternoon to cleaning up a local community center and the surrounding neighborhood. They also took the time to think through questions about leadership including “Why is it important to serve the community?” One student summed up the mission of the Joy Project by stating that serving the community causes others to step up and serve too. We’ve found that a little Joy goes a long way and the effects are continuous. What a privilege to invest in students who feel the same way!
+  fullimage: urban_impact
+
+- name: Karen's Story
+  description: The mother of a murder victim in 2012 was shown love and compassion by the Joy Project.
+  image_url: karen
+  date_of_event: July 2012
+  uniqueID: 0004
+  fullheader: Compassion for the mother of a murder victim
+  fullstory: Karen has been a long time friend of ours that works at Dunkin Donuts in downtown Lexington. In 2011 her daughter’s life was tragically taken at the young age of 20. When we visited her home in 2012, Karen still lived at the apartment and slept in the same room where her daughter lost her life. We realized that updating furniture in the room would help remove some of the terrible reminders that Karen was living with each day. It was a practical response to a very personal need. We will never forget the vulnerability Karen showed by trusting us with her story.
+  fullimage: karen
+
+- name: Pete The Painter
+  description: Pete fought his way out of being homeless and battled alcoholism to be sober since June of 2013.
+  image_url: pete_painter
+  date_of_event: May 2013
+  uniqueID: 0003
+  fullheader: Pete the Painter - Pete
+  fullstory: Pete came to Awesome Inc in 2009 and offered his painting skills as a service to our community. At the time, Pete was homeless and an alcoholic. After several years of showing love to Pete (and him showing love back to us), Pete is no longer homeless and is no longer an alcoholic. He actually hasn’t had a drink in several months. He’s now a great friend, our go to handyman, and can sing a sweet rendition of “Sittin on the dock of the bay”.
+  fullimage: pete_painter
+
+- name: Joe's House 
+  description: Volunteers showed up to a surprise a small real estate business owner and flip a house that was behind schedule.
+  image_url: Joe_house_3
+  date_of_event: April 2013
+  uniqueID: 0002
+  fullheader: Helping Grow Small Business
+  fullstory: A neighbor of a Joy Project member runs his own business flipping houses in Lexington, KY. His business has been struggling as the real estate industry tries to rebound. In the spring of 2013 he was working on flipping a house and was way behind on the timeline. The Joy Project caught wind of his situation and rounded up 15 amazing people to volunteer their time and skills to help him make up lost time on his current house flip. He was able to complete his flip on time and the house is now for sale. His business is bouncing back. He was overwhelmed with joy and gratefulness. He couldn’t stop telling the volunteers how much this meant to him. We were as encouraged by him as he was encouraged by the team of volunteers. Thank you to everyone who helped out!
+  fullimage: Joe_house_1
+  fullimage2: Joe_house_2
+
+- name: The Delgado Household
+  description: The Joy Project helps a single mother of eight with time and donations.
+  image_url: delgado_photo2
+  date_of_event: October 2012
+  uniqueID: 0001
+  fullheader: Family of nine assisted by Joy Project
+  fullstory: In the Fall of 2012 a hard working single mother of seven children discovered she was 7 months pregnant with her 8th child. After being diagnosed with preeclampsia and hospitalized, the mother was forced to quit her job. Financial strains grew. Living conditions were already rough, with only 2 of the 3 rooms usable and only 2 beds. Through numerous volunteers and donations, The Joy Project was able to assist the family with immediate needs by investing in bunk beds, baby supplies, and additional furniture. Several work days later, all 3 bedrooms were functional and in use, with beds for each child. Volunteers from the Joy Project continue to mentor and invest in the children of this family.
+  fullimage: family

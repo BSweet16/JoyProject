@@ -1,0 +1,189 @@
+<!-- Header content -->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="HowItWorks" >
+    <meta property="og:url" content="http://localhost:4000/howitworks/" >
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="ZHa3CqXpt-ieUEB4w2KPISG0VTXYEnoGFNtCsaY3yeo" />
+
+    <title>HowItWorks | Joy Project</title>
+    <link rel="icon" href="/assets/ico/favicon.ico"> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" media="screen"/>
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>  
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="/assets/js/modernizr.custom.js"></script>
+  
+    
+   <script src="/assets/js/angular.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script src="/assets/js/accordian.js"></script>
+
+  <!-- Hamburger -->
+  <button class="hamburger visible-phone" style="font-size: 40px;">&#9776;</button>
+  <!-- /Hamburger --> 
+
+  </head>
+
+  <body>
+    <div id="wrap">
+	    <!-- Fixed navbar -->
+	        <!-- Fixed navbar -->           
+    <nav class="navbar-fixed-top" style="margin-right: 85%;">
+      <a href="/index"><img class="mobile navbar-left" src="/assets/img/Joy_Logo2.gif" alt="Joy Logo" height="200px" style="margin-top: 8px;"> </a>
+    </nav>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" style="min-width:0"> <!-- RIGHT ALIGNED NAVBAR -->
+            <li >   <!-- ABOUT -->
+                <a data-toggle="collapse" data-target=".in" href="/">Home</a>
+            </li> 
+            <li >  <!-- MEDIA -->
+                <a data-toggle="collapse" data-target=".in" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a>
+            </li>
+            <li >    <!-- PERKS -->
+                <a data-toggle="collapse" data-target=".in" href="/stories/">Stories</a>
+            </li>
+            <li class="dropdown"> <!-- Community -->
+
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  More
+                </a>
+                <ul class="dropdown-menu text-center">
+                  <li><a href="/mission">Mission</a></li>
+                  <li><a href="/howitworks">How It Works</a></li>
+                  <li><a href="/about"">About Us</a></li>
+                  <li><a href="/nominate">Nominate</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div><!--/.container -->
+    </nav>
+
+<!-- Hamburger -->
+    <div class="menu">
+  <ul>
+    <a href="/index"><li>Home</li></a>
+    <a data-toggle="collapse" data-target=".in" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank"><li>Donate</li></a>
+    <a href="/stories"><li>Stories</li></a>
+    <a href="/mission"><li>Mission</li></a>
+    <a href="/howitworks"><li>How It Works</li></a>
+    <a href="/about"><li>About Us</li></a>
+    <a href="/nominate"><li>Nominate</li></a>
+  </ul>
+</div> 
+
+
+<!-- /Hamburger -->
+<script>
+$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+</script>
+
+	    <div class="HowItWorks">
+
+	     <!-- Body content -->
+	      <div class="subheader"> 
+	<div class="center container img-overlay">
+    	<h1>How It Works</h1>
+    </div>
+</div>
+
+<div class="container center">
+	<p style=" font-size: 25px; padding-top: 30px;"><b>It’s a three step process.</b><br><br>
+			<div id="steps" class="contaniner">
+			    <b>Step 1:</b> Friends of the Joy Project <a href="/nominate">"nominate"</a> someone they know who is in need of extra support at any time.<br>
+			    <b>Step 2:</b> Members of the Joy Project devise a plan to help this someone and cover any costs involved using Joy Project funds.<br>
+			    <b>Step 3:</b> Friends of the Joy Project unite and set out to spread the Joy! </p></p>
+			</div>
+</div> <!-- /container -->
+
+        <div class="push"></div>
+	      </div>
+    </div>
+    <!-- Footer content -->
+      <!-- Footer Wrap -->
+<footer class="footer navbar-fixed-bottom">	
+
+  <!-- Logo (col 1)--> 
+	<div style="background-color: #D33E51;" class="row">
+	  <div id="FooterLogo" class="col-lg-3">
+      <img class="center blended" src="/assets/img/Joy_Logo2.gif" alt="Joy Logo" height="200px">
+	  </div>
+
+    <!-- Column 2 -->
+    <div id="SmallCenter" class="col-lg-2 col-xs-6 left">
+      <h5>Lets Talk</h5> <!-- Links Section -->
+        <li>
+          <a href="/about">About Us</a>
+        </li>
+        <li>
+          <a href="/nominate">Nominate</a>
+        </li>
+        <li>
+          <a href="/stories">Our Stories</a>
+        </li>
+    </div>
+
+    <!-- Column 3 --> 
+    <div class="col-lg-3 col-xs-6 left">
+      <h5 id="SmallCenter" >Keep In Touch</h5> <!-- Contact Section -->
+      <li><a data-target=".in" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"> Donate to the Joy Project </a></li>
+      <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSesft8eDDphhX-DFy83Tod86LhGau2S7Q6LVEJK2K15Cn_dyg/viewform"> Subscribe to Updates </a></li>
+    </div>
+
+    <!-- Column 4 -->
+    <div id="SmallCenter" class="col-lg-3 col-xs-12 left ">
+      <h5>Submit Your Ideas</h5>
+      <li><p>Know someone in need of Joy? Tell us all about it and we can put it in motion for you!</p></li>
+
+      <!-- Submit Button -->
+      <a href="/nominate" style="height: 50px;"> 
+          <button type="submit" style="margin-bottom: 25px;" class="btn btn-primary">Submit</button>
+        </a>
+    </div>
+  </div>
+
+</footer>
+
+
+  </body>
+

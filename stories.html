@@ -1,0 +1,92 @@
+---
+layout: page
+permalink: stories/
+title: Stories
+---
+<div class="center subheader">
+	<!-- <img class="center" src="/assets/img/StoriesBackground.png" alt="StoriesBackgroundImage"> -->
+	<div class="container img-overlay">
+    	<h1>Our Stories</h1>
+    </div>
+
+</div>
+
+<div class="container center"> 
+<h1> "There's no greater feeling than touching hearts and lives." </h1>
+</div>
+
+<div class="container">
+	<div class="row">
+		{% for story in site.data.stories %}
+		<div class="col-md-6 col-sm-6  col-xs-12 story" style="height: 600px;">
+
+			<!-- Preview -->
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal{{story.uniqueID}}">
+				<img class="center" id="{{story.image_url}}" src="/assets/img/stories/{{story.image_url}}.png" alt="{{story.name}}">
+      </button>
+
+				<h3 class="center" style="padding-bottom: 20px;" >{{story.name}}</h3>
+
+				<!-- Short Description -->
+			<p><b>Date of Event: </b> {{story.date_of_event}}</p>
+			<p>{{story.description}}</p>
+		</div>
+
+<!-- Modal -->
+<div id="myModal{{story.uniqueID}}" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title center">{{story.fullheader}}</h4>
+      </div>
+      <div class="modal-body">
+        <p>{{story.fullstory}}</p>
+
+        <!-- Display Flickr Album -->
+        {% if story.flickrimage %}
+          {{story.flickrimage}}
+
+        <!-- Display images (Up to 5) --> 
+        {% else %}
+          {% if story.fullimage %}
+              <img class="center" id="{{story.fullimage}}" src="/assets/img/stories/{{story.fullimage}}.png" alt="{{story.fullimage}}" style="padding-bottom: 10px">
+          {% endif %}
+
+          {% if story.fullimage2 %}
+              <img class="center" id="{{story.fullimage2}}" src="/assets/img/stories/{{story.fullimage2}}.png" alt="{{story.fullimage2}}" style="padding-bottom: 10px">
+          {% endif %}
+
+          {% if story.fullimage3 %}
+              <img class="center" id="{{story.fullimage3}}" src="/assets/img/stories/{{story.fullimage3}}.png" alt="{{story.fullimage3}}" style="padding-bottom: 10px">
+          {% endif %}
+
+          {% if story.fullimage4 %}
+              <img class="center" id="{{story.fullimage4}}" src="/assets/img/stories/{{story.fullimage4}}.png" alt="{{story.fullimage4}}" style="padding-bottom: 10px">
+          {% endif %}
+
+          {% if story.fullimage5 %}
+              <img class="center" id="{{story.fullimage5}}" src="/assets/img/stories/{{story.fullimage5}}.png" alt="{{story.fullimage5}}" style="padding-bottom: 10px">
+          {% endif %}
+          <!-- /Image area --> 
+        {% endif %}
+
+          <!-- Video spot -->
+          {% if story.embededvideo %} 
+          <br><object data="{{story.embededvideo}}"  width="640" height="480"></object>
+          {% endif %}
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div> <!-- Close Modal --> 
+
+		{% endfor %}
+	</div>
+</div> <!-- /container -->

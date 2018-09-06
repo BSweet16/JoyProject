@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-10 col-sm-offset-1 blog-main">
+
+          <div class="blog-post">
+                <h1 style="margin-top:50px;">{{ page.title }}</h1>
+                <p><a href="mailto:{{page.email}}">{{ page.author }}</a><br>
+                {{ page.date | date: "%b %d, %Y" }}
+                </p>
+                <p>{{ content }}</p>
+            </div>
+        </div><!-- /.blog-main -->
+
+     </div><!-- /.row -->
+</div>

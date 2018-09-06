@@ -1,0 +1,177 @@
+---
+layout: page
+---
+<div id="headerwrap"> <!-- Wrap --> 
+
+<div class="row center">
+<!-- Carousel --> 
+<div id="myCarousel" class="carousel slide center" data-ride="carousel" style=" max-width: 50%; margin-top: 5%;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="/stories"><img src="/assets/img/stories/pete_painter.png" alt="Pete Painter"></a>
+    </div>
+
+    <div class="item">
+      <a href="/stories"><img src="/assets/img/stories/family.png" alt="Family Picture"></a>
+    </div>
+
+    <div class="item">
+      <a href="/stories"><img src="/assets/img/Slideshow2.png" alt="Picture"></a>
+    </div>
+</div> <!-- /Carousel Inner -->
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control mobile-hide" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control mobile-hide" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+ 
+</div> <!-- /Carousel -->
+</div> <!-- /Row -->
+
+
+
+<div class="row">
+<div id="button-container" class="container center"> <!-- Container --> 
+      <div class="col-lg-3"></div> <!-- Spacing -->
+
+    	<div id="Mission" class="btn col-lg-3" data-toggle="tooltip" data-placement="top" title="
+        We believe that in order to achieve continuous joy one needs to unselfishly create joy for those around them. The Joy Project assists local members of the community through acts of kindness."
+        > <!-- Mission button -->
+        <!-- Tooltip Hover -->
+        <a href="/mission"><h5><b>Our Mission</b></h5></a>
+    	</div>
+
+    	<div id="HowItWorks" class="btn col-lg-3" data-toggle="tooltip2" data-placement="top" title="
+        Friends of the Joy Project “nominate” someone in need and then mobilize to meet this need and spread joy in our communities."> 
+        <!-- How It Works button -->
+        <!-- Tooltip Hover --> 
+        <a href="/howitworks"><h5><b>How It Works</b></h5></a> 
+    </div>
+
+    <div class="col-lg-3"></div> <!-- Spacing -->
+</div> <!-- /Container -->
+</div> <!-- /row -->
+
+
+
+
+
+
+
+
+
+
+<div class="container" style="margin-top: 5%; margin-bottom: 5%">
+	<h3 class="center"><b>Recent Stories</b></h3> <!-- Recent Stories Title  -->
+
+		{% for story in site.data.stories %} <!-- Display the 5 most recent stories -->
+		<div class="row"> <!-- Recent stories Pannel -->
+		<button class="center" style="width: 80%;">
+		<a href="/stories">
+			<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" style="padding-top: 3%"> <!-- Display Area -->
+				<img class="left col-lg-12 col-xs-5" id="{{story.image_url}}" src="/assets/img/stories/{{story.image_url}}.png" alt="{{story.name}}">
+				<h4 class="col-lg-12 col-xs-7">{{story.name}}</h4>
+			</div>
+
+			<div class="col-lg-9 col-md-12 mobile-hide" style="padding-top: 3%;"> <!-- Quick Info Area -->
+				<!-- Short Description -->
+				<p>Date of Event: {{story.date_of_event}}</p>
+				<p>{{story.description}}</p>
+				<br> <p><i>Click to read more.</i></p>
+			</div>
+
+		</a>
+		</button>
+
+			<!-- "Background Work" -->
+			<div style="display: none"> 
+			{% increment counter %}
+
+			{% if counter > 4 %} <!-- Check if there are 5 stories -->
+				{% break %}
+			{% endif %}
+			</div>
+
+		</div> <!-- /Row (Recent Stories Pannel) -->
+		{% endfor %} <!-- /Display the 5 most recent stories -->
+
+</div> <!-- /Container (Recent Stories Pannel) -->
+
+
+
+
+</div>
+</div><!-- /.container -->
+	</div><!-- / wrap -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slideshow script --> 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+<!-- Tooltip (Our Mission) script -->
+<script>  
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+<!-- Tooltip (HowItWorks) script -->
+<script>  
+$(document).ready(function(){
+    $('[data-toggle="tooltip2"]').tooltip();   
+});
+</script>
+
+<!-- /White Wrap Version 2 - The Space -->	
+		</div><!-- /row -->
+	</div><!-- /container -->
+</div><!-- /info -->	
